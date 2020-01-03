@@ -1,0 +1,322 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.2.0.dev1)
+  --------------------------------------------------------------
+
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... MLD
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... YES
+  Infiltration Method ...... GREEN_AMPT
+  Flow Routing Method ...... DYNWAVE
+  Starting Date ............ 08/28/2015 08:00:00
+  Ending Date .............. 08/28/2015 12:00:00
+  Antecedent Dry Days ...... 4.0
+  Report Time Step ......... 00:01:00
+  Wet Time Step ............ 00:01:00
+  Dry Time Step ............ 00:01:00
+  Routing Time Step ........ 5.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.001500 m
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     hectare-m            mm
+  **************************     ---------       -------
+  Total Precipitation ......         0.219        12.191
+  Evaporation Loss .........         0.000         0.000
+  Infiltration Loss ........         0.121         6.724
+  Surface Runoff ...........         0.052         2.908
+  Final Storage ............         0.046         2.562
+  Continuity Error (%) .....        -0.028
+  
+  
+  **************************           COD         NH3-N            TN            TP            SS
+  Runoff Quality Continuity             kg            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------    ----------
+  Initial Buildup ..........       864.000         0.000         0.000         0.000         0.000
+  Surface Buildup ..........         6.942         0.000         0.000         0.000         0.000
+  Wet Deposition ...........         0.000         0.000         0.000         0.000         0.000
+  Sweeping Removal .........         0.000         0.000         0.000         0.000         0.000
+  Infiltration Loss ........         0.000         0.000         0.000         0.000         0.000
+  BMP Removal ..............         0.000         0.000         0.000         0.000         0.000
+  Surface Runoff ...........        43.337         0.000         0.000         0.000         0.000
+  Remaining Buildup ........       827.604         0.000         0.000         0.000         0.000
+  Continuity Error (%) .....         0.000         0.000         0.000         0.000         0.000
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        hectare-m      10^6 ltr
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.052         0.523
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.036         0.362
+  External Outflow .........         0.082         0.819
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.007         0.070
+  Continuity Error (%) .....        -0.467
+  
+  
+  **************************           COD         NH3-N            TN            TP            SS
+  Quality Routing Continuity            kg            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000         0.000         0.000         0.000
+  Wet Weather Inflow .......        43.311         0.000         0.000         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000         0.000         0.000         0.000
+  RDII Inflow ..............         0.000         0.000         0.000         0.000         0.000
+  External Inflow ..........        60.440         0.000         0.000         0.000         0.000
+  External Outflow .........       100.720         0.000         0.000         0.000         0.000
+  Flooding Loss ............         0.014         0.000         0.000         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000         0.000         0.000         0.000
+  Mass Reacted .............         0.000         0.000         0.000         0.000         0.000
+  Initial Stored Mass ......         0.000         0.000         0.000         0.000         0.000
+  Final Stored Mass ........         6.562         0.000         0.000         0.000         0.000
+  Continuity Error (%) .....        -3.416         0.000         0.000         0.000         0.000
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node WS02006251 (1.36%)
+  Node WS02006249 (1.11%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  Link 8 (76.90%)
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  All links are stable.
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     0.53 sec
+  Average Time Step           :     1.59 sec
+  Maximum Time Step           :     5.00 sec
+  Percent in Steady State     :    -0.00
+  Average Iterations per Step :     2.08
+  Percent Not Converging      :     0.88
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 mm         mm         mm         mm         mm    10^6 ltr      MLD
+  --------------------------------------------------------------------------------------------------------
+  61                        12.19       0.00       0.00       6.72       2.91        0.52     8.50   0.239
+  
+  
+  ****************************
+  Subcatchment Washoff Summary
+  ****************************
+  
+  ------------------------------------------------------------------------------------------
+                                 COD         NH3-N            TN            TP            SS
+  Subcatchment                    kg            kg            kg            kg            kg
+  ------------------------------------------------------------------------------------------
+  61                          43.337         0.000         0.000         0.000         0.000
+  ------------------------------------------------------------------------------------------
+  System                      43.337         0.000         0.000         0.000         0.000
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  WS02006248           JUNCTION     0.67     0.75     8.34     0  02:58        0.75
+  WS02006249           JUNCTION     0.67     1.09     8.69     0  01:06        0.82
+  WS02006251           JUNCTION     0.60     1.49     9.16     0  01:07        0.76
+  WS02006253           JUNCTION     0.48     0.65     8.45     0  02:58        0.63
+  outfall-5            OUTFALL      0.10     0.15     7.81     0  02:59        0.15
+  outfall-27           OUTFALL      0.00     0.00     7.90     0  00:00        0.00
+  CC-storage           STORAGE      1.81     3.03     6.21     0  02:57        3.02
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           MLD      MLD  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  WS02006248           JUNCTION      0.12    21.83     0  02:59      0.0192       0.838       0.536
+  WS02006249           JUNCTION      0.19    21.70     0  01:06      0.0286       0.866       1.126
+  WS02006251           JUNCTION      0.06    23.69     0  01:05     0.00981       0.903       1.381
+  WS02006253           JUNCTION      0.11    18.01     0  03:21      0.0173        0.86       0.507
+  outfall-5            OUTFALL       0.00    21.97     0  02:59           0       0.819       0.000
+  outfall-27           OUTFALL       0.00     0.00     0  00:00           0           0       0.000 ltr
+  CC-storage           STORAGE      10.05    10.05     0  03:00        0.81        0.81       0.001
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged         Meters       Meters
+  ---------------------------------------------------------------------
+  WS02006249           JUNCTION        1.03          0.388        0.000
+  WS02006251           JUNCTION        0.11          0.790        0.720
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       MLD   days hr:min    10^6 ltr    Meters
+  --------------------------------------------------------------------------
+  WS02006249              0.01      5.51      0  01:06       0.000     0.000
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  --------------------------------------------------------------------------------------------------
+                         Average     Avg  Evap Exfil       Maximum     Max    Time of Max    Maximum
+                          Volume    Pcnt  Pcnt  Pcnt        Volume    Pcnt     Occurrence    Outflow
+  Storage Unit           1000 m3    Full  Loss  Loss       1000 m3    Full    days hr:min        MLD
+  --------------------------------------------------------------------------------------------------
+  CC-storage               0.051      32     0     0         0.086      54       0  02:57      17.28
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  ---------------------------------------------------------------------------------------------------------------------------------
+                         Flow       Avg       Max       Total         Total         Total         Total         Total         Total
+                         Freq      Flow      Flow      Volume           COD         NH3-N            TN            TP            SS
+  Outfall Node           Pcnt       MLD       MLD    10^6 ltr            kg            kg            kg            kg            kg
+  ---------------------------------------------------------------------------------------------------------------------------------
+  outfall-5             88.61     15.19     21.97       0.819       100.823         0.000         0.000         0.000         0.000
+  outfall-27             0.00      0.00      0.00       0.000         0.000         0.000         0.000         0.000         0.000
+  ---------------------------------------------------------------------------------------------------------------------------------
+  System                44.30     15.19     21.97       0.819       100.823         0.000         0.000         0.000         0.000
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          MLD  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  WSL2480              CONDUIT     21.72     0  02:59      0.65    1.00    1.00
+  WSL2482              CONDUIT     21.51     0  01:06      0.78    0.56    1.00
+  WSL2484              CONDUIT     23.63     0  01:05      1.15    0.33    0.97
+  8                    CONDUIT     21.97     0  02:59      6.05    0.29    0.37
+  1                    CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  CC-Pump-1            PUMP        17.28     0  01:05              1.00
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  WSL2480                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  WSL2482                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.03  0.00
+  WSL2484                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.09  0.00
+  8                       1.00   0.11  0.00  0.00  0.01  0.88  0.00  0.00  0.11  0.00
+  1                       1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  WSL2480                     1.02      1.03      1.06      0.01         0.08
+  WSL2482                     0.10      0.11      1.03      0.01         0.01
+  WSL2484                     0.01      0.01      0.11      0.01         0.01
+  
+  
+  ***************
+  Pumping Summary
+  ***************
+  
+  ---------------------------------------------------------------------------------------------------------
+                                                  Min       Avg       Max     Total     Power    % Time Off
+                        Percent   Number of      Flow      Flow      Flow    Volume     Usage    Pump Curve
+  Pump                 Utilized   Start-Ups       MLD       MLD       MLD  10^6 ltr     Kw-hr    Low   High
+  ---------------------------------------------------------------------------------------------------------
+  CC-Pump-1               27.02           8      0.00     17.28     17.28     0.778      6.76    0.0    0.0
+  
+  
+  ***************************
+  Link Pollutant Load Summary
+  ***************************
+  
+  ------------------------------------------------------------------------------------------
+                                 COD         NH3-N            TN            TP            SS
+  Link                            kg            kg            kg            kg            kg
+  ------------------------------------------------------------------------------------------
+  WSL2480                    102.554         0.000         0.000         0.000         0.000
+  WSL2482                    104.830         0.000         0.000         0.000         0.000
+  WSL2484                    111.707         0.000         0.000         0.000         0.000
+  8                          100.823         0.000         0.000         0.000         0.000
+  1                            0.000         0.000         0.000         0.000         0.000
+  CC-Pump-1                   88.512         0.000         0.000         0.000         0.000
+  
+
+  Analysis begun on:  Thu Feb 14 14:55:40 2019
+  Analysis ended on:  Thu Feb 14 14:55:40 2019
+  Total elapsed time: < 1 sec
